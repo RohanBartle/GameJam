@@ -448,7 +448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PhysicsJump
   jumpForce: 10
   gravityScale: 5
-  fallGravityScale: 15
+  fallGravityScale: 5
 --- !u!114 &1197367756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,8 +461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 741e0887175a30041a87c7a96a240f5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  speed: 0
-  rb: {fileID: 0}
+  speed: 4.5
+  rb: {fileID: 1197367758}
 --- !u!61 &1197367757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -549,7 +549,7 @@ GameObject:
   - component: {fileID: 1832571747}
   m_Layer: 0
   m_Name: Ground Test
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
