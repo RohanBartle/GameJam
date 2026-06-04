@@ -29,11 +29,11 @@ public class PlayerController : MonoBehaviour
 
         if (horizontal > 0)
         {
-            gameObject.transform.localScale = new Vector3(0.25f, 0.25f, 0);
+            gameObject.transform.localScale = new Vector3(2.0f, 2.0f, 2.0f);
         }
         if (horizontal < 0)
         {
-            gameObject.transform.localScale = new Vector3(-0.25f, 0.25f, 0);
+            gameObject.transform.localScale = new Vector3(-2.0f, 2.0f, 2.0f);
         }
     }
 
