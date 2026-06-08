@@ -798,7 +798,7 @@ DistanceJoint2D:
   m_GameObject: {fileID: 1035628757}
   m_Enabled: 1
   serializedVersion: 4
-  m_EnableCollision: 0
+  m_EnableCollision: 1
   m_ConnectedRigidBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -1058,7 +1058,7 @@ GameObject:
   - component: {fileID: 1660041253}
   m_Layer: 3
   m_Name: Ceiling
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
